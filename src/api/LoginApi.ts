@@ -10,7 +10,7 @@ const instance = axios.create({
 
 export const isLoginApi = {
   isLogin(data: authType) {
-    return instance.post('auth/login', data);
+    return instance.post<authType>('auth/login', data);
   },
   me() {
     return instance.get<isLoginGetType>('auth/me');
@@ -25,7 +25,7 @@ export type authType = {
 
 type isLoginGetType = {
   resultCode: number;
-  messages: any;
+  messages: [];
   data: {
     email: string;
     id: number;
