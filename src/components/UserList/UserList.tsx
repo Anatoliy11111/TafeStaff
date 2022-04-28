@@ -34,6 +34,12 @@ export const UserList: React.FC = () => {
     dispatch(addUser(user));
     setUser('');
   }, [dispatch, user]);
+
+  const onClickSelectInput = (): void => {
+    setShouSearchInput(!shouSearchInput);
+    setFindName('');
+    setUser('');
+  };
   if (!isLogin) {
     return <Navigate to="/login" />;
   }
@@ -46,9 +52,7 @@ export const UserList: React.FC = () => {
           role="button"
           className={style.searchButton}
           tabIndex={0}
-          onClick={() => {
-            setShouSearchInput(!shouSearchInput);
-          }}
+          onClick={onClickSelectInput}
         />
 
         {!shouSearchInput && (

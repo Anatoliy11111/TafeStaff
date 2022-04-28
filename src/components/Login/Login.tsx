@@ -55,8 +55,8 @@ export const Login: React.FC = () => {
   return (
     <div className={style.ContainerLogin}>
       <form onSubmit={formik.handleSubmit} className={style.form}>
-        <h2>IT-Incubator</h2>
-        <h2>Sing In</h2>
+        <h2>Email: free@samuraijs.com</h2>
+        <h2>Password: free</h2>
         <div className={style.formItem}>
           <label className={style.label} htmlFor="email">
             Email{' '}
