@@ -1,0 +1,91 @@
+.userListContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 25rem;
+  width: 25rem;
+  box-shadow: 0 0 5px #605e5e;
+  border-radius: 8px;
+
+  .addUser {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+
+    .searchButton {
+      width: 20px;
+      height: 20px;
+      background-image: url('https://s1.iconbird.com/ico/2013/10/464/w512h5121380984834search.png');
+      background-size: cover;
+      background-position: center;
+      cursor: pointer;
+     margin-right: 5px;
+    }
+
+    input {
+      width: 71%;
+      outline: none;
+      border: none;
+      border-bottom: 2px solid #959a92
+    }
+
+    button {
+      background: #79acda;
+      border-radius: 8px;
+      border: none;
+      padding: 0 1rem;
+      margin: 0 0.4rem;
+      cursor: pointer;
+    }
+  }
+
+  .users {
+    margin-top: 1rem;
+
+    .user {
+      margin: 0.5rem;
+      display: flex;
+      border-bottom: 1px solid black;
+      box-shadow: 1px 0.5px 0 #605e5e;
+      background: #f2f9ff;
+
+      .buttonContainer {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+          border-radius: 5px;
+          border: none;
+          background: #f26a6a8c;
+          cursor: pointer;
+        }
+      }
+
+      .nameAndSetting {
+        flex: 9;
+        display: flex;
+        justify-content: space-between;
+
+        input {
+          width: 71%;
+          outline: none;
+          border-radius: 3px;
+          background: rgba(95, 158, 218, 0.5);
+          border: 1px solid #959a92;
+
+        }
+
+        .setting {
+          width: 20px;
+          height: 20px;
+          background-image: url('https://cdn-icons-png.flaticon.com/512/131/131699.png');
+          background-size: cover;
+          background-position: center;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
