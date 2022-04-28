@@ -16,7 +16,4 @@ export type AppDispatch = typeof store.dispatch;
 
 export const useAppDispatch = (): Function => useDispatch<AppDispatch>();
 
-export const store: Store<storeType, any> = legacy_createStore(
-  reducerRoot,
-  applyMiddleware(thunk),
-);
+export const store: Store = legacy_createStore(reducerRoot, applyMiddleware(thunk));
