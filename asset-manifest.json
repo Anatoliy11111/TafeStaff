@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TakeStaff/static/css/main.2ffcbfbb.css",
-    "main.js": "/TakeStaff/static/js/main.a16b7f3e.js",
+    "main.css": "/TakeStaff/static/css/main.3a9072cf.css",
+    "main.js": "/TakeStaff/static/js/main.2db3e8fe.js",
     "static/js/787.370794a7.chunk.js": "/TakeStaff/static/js/787.370794a7.chunk.js",
     "index.html": "/TakeStaff/index.html",
-    "main.2ffcbfbb.css.map": "/TakeStaff/static/css/main.2ffcbfbb.css.map",
-    "main.a16b7f3e.js.map": "/TakeStaff/static/js/main.a16b7f3e.js.map",
+    "main.3a9072cf.css.map": "/TakeStaff/static/css/main.3a9072cf.css.map",
+    "main.2db3e8fe.js.map": "/TakeStaff/static/js/main.2db3e8fe.js.map",
     "787.370794a7.chunk.js.map": "/TakeStaff/static/js/787.370794a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ffcbfbb.css",
-    "static/js/main.a16b7f3e.js"
+    "static/css/main.3a9072cf.css",
+    "static/js/main.2db3e8fe.js"
   ]
 }
